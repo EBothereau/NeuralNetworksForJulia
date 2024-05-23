@@ -22,6 +22,35 @@ model =Chain(
 )
 
 # ----------------------------------------------------
+# --- POWDER CNN
+# ----------------------------------------------------
+m = Chain(
+    Conv((7,), 2 => 40, pad=SamePad(), relu),                   
+    Conv((5,), 40 => 40, pad=SamePad(), relu),                  
+    MaxPool((2,)),
+
+    Conv((7,), 40 => 40, pad=SamePad(), relu), 
+    Conv((5,), 40 => 40, pad=SamePad(), relu),
+    MaxPool((2,)),
+    
+    Conv((7,), 40 => 40, pad=SamePad(), relu),
+    Conv((5,), 40 => 40, pad=SamePad(), relu),
+    MaxPool((2,)),
+    
+    Conv((7,), 40 => 40, pad=SamePad(), relu),
+    Conv((5,), 40 => 40, pad=SamePad(), relu),
+             
+    Flux.flatten,
+    Dense(1280, 1024, relu), 
+    Dropout(0.5),
+    Dense(1024, 256, relu),
+    Dropout(0.5),
+    Dense(256,x), 
+                          
+    Flux.softmax
+)
+
+# ----------------------------------------------------
 # --- Elmaghbub CNN
 # ----------------------------------------------------
 
@@ -108,10 +137,37 @@ model =Chain(
     MaxPool((2,)),
     Conv((10,), 32 => 16, pad=SamePad(), relu),  
     MaxPool((2,)),
+    
     Flux.flatten,
     Dense(512,64), 
     Dense(64,4), 
     Dense(4,x), 
+    Flux.softmax
+)
+
+# ----------------------------------------------------
+# --- WiSig CNN
+# ----------------------------------------------------
+
+
+m = Chain(
+    x -> reshape(x, (size(x)[1], 2, 1, size(x)[3])),
+    Conv((3,2), 1 => 8, pad=SamePad(), relu), 
+    MaxPool((2,1)),
+    Conv((3,2), 8 => 16, pad=SamePad(), relu), 
+    MaxPool((2,1)),
+    Conv((3,2), 16 => 16, pad=SamePad(), relu), 
+    MaxPool((2,1)),
+    Conv((3,1), 16 => 32, pad=SamePad(), relu), 
+    MaxPool((2,1)),
+    Conv((3,1), 32 => 16, pad=SamePad(), relu), 
+    MaxPool((2,1)),
+    
+    Flux.flatten,
+    Dense(256, 100, relu), 
+    Dense(100, 80, relu),
+    Dropout(0.5),
+    Dense(80,x), 
     Flux.softmax
 )
 
