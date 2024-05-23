@@ -1,4 +1,8 @@
 # TITLE 
+Emma BOTHEREAU∗ , Alice CHILLET∗ , Robin GERZAGUET∗ , Matthieu GAUTIER∗ , Olivier BERDER∗ , 
+∗ Univ Rennes, CNRS, IRISA, firstname.name@irisa.fr
+
+
 
 In this repository are presented the Neural Networks used for the article in Julia. 
 
