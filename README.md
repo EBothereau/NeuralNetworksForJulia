@@ -1,4 +1,4 @@
-# Neural Networks for Radio-Frequency Fingerprint Identification 
+# TITLE 
 
 In this repository are presented the Neural Networks used for the article in Julia. 
 
