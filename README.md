@@ -22,7 +22,7 @@ We used the following neural networks :
 
 ## Learning rates for each Network-Dataset combination
 
-|                     | **POWDER CNN** | **Sankhe CNN** | **Elmaghbub CNN** | **Arroyo CNN** | **WiSig CNN** | **Feng CNN-GRU** | **Triple Dense (ours)** |
+|                     | **POWDER CNN** | **Sankhe CNN** | **Elmaghbub CNN** | **Arroyo CNN** | **WiSig CNN** | **Feng CNN-GRU** | **Triple Dense** |
 |---------------------|----------------|----------------|-------------------|----------------|---------------|------------------|-------------------------|
 | **Oracle Dataset**  | ------         | ------         | ------            | ------         | ------        | ------           | ------                  |
 | **POWDER Dataset**  | ------         | ------         | ------            | ------         | ------        | ------           | ------                  |
