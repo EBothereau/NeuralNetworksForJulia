@@ -15,8 +15,6 @@ We used the following neural networks :
 ![](Illustrations/Sankhe.png)
 - [Elmaghbub CNN](https://arxiv.org/abs/2308.04467) 
 ![](Illustrations/Elmaghbub.png)
-- [Arroyo CNN](https://www.mdpi.com/1424-8220/22/6/2111)
-![](Illustrations/Arroyo.png)
 - [WiSig CNN](https://arxiv.org/abs/2112.15363)
 ![](Illustrations/wisig.png)
 - [Feng CNN-GRU](https://ieeexplore.ieee.org/document/9851177) 
