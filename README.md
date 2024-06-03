@@ -24,6 +24,8 @@ We used the following neural networks :
 
 ## Learning rates for each Network-Dataset combination
 
+We used the Adam Optimizer with the corresponding learning rate. Per default, we used a scheduler, reducing by 10% the learning rate, every 10 epochs.
+
 |                     | **POWDER CNN** | **Sankhe CNN** | **Elmaghbub CNN**  | **WiSig CNN** | **Feng CNN-GRU** | **Triple Dense** |
 |---------------------|----------------|----------------|-------------------|---------------|------------------|-------------------------|
 | **POWDER Dataset**   | 0.0001         | 0.0001         | 0.0001           | 0.0001        | 0.001           | 0.01                  |
