@@ -14,7 +14,7 @@ We used the following neural networks :
 - [Sankhe CNN](https://ieeexplore.ieee.org/document/8882379)
 ![](Illustrations/Sankhe.png)
 - [Elmaghbub CNN](https://arxiv.org/abs/2308.04467) 
-![](Illustrations/Elmaghbub.png)
+![](Illustrations/Elmaghbub2.png)
 - [WiSig CNN](https://arxiv.org/abs/2112.15363)
 ![](Illustrations/wisig.png)
 - [Feng CNN-GRU](https://ieeexplore.ieee.org/document/9851177) 
