@@ -24,7 +24,7 @@ We used the following neural networks :
 
 ## Learning rates for each Network-Dataset combination
 
-We used the Adam Optimizer with the corresponding learning rate. Per default, we used a scheduler, reducing by 10% the learning rate, every 10 epochs.
+All networks undergo 200 epochs of training on the S1 scenario only, with early stopping if the loss function (CrossEntropy) does not decrease for 10 consecutive epochs. We used the Adam Optimizer with the corresponding learning rate. Per default, we used a scheduler, reducing by 10% the learning rate, every 10 epochs.
 
 |                     | **POWDER CNN** | **Sankhe CNN** | **Elmaghbub CNN**  | **WiSig CNN** | **Feng CNN-GRU** | **Triple Dense** |
 |---------------------|----------------|----------------|-------------------|---------------|------------------|-------------------------|
