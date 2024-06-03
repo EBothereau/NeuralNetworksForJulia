@@ -32,4 +32,4 @@ We used the following neural networks :
 | **Oracle Dataset**  | 0.0005*         | 0.0001         | 0.0001           | 0.001        | 0.001           | 0.01                  |
 
 
-The scheduler reduce by 10% the learning rate, every 30 epochs
+*The scheduler reduce by 10% the learning rate, every 30 epochs
