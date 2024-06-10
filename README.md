@@ -5,7 +5,7 @@ Emma BOTHEREAU∗ , Alice CHILLET∗ , Robin GERZAGUET∗ , Matthieu GAUTIER∗ 
 
 
 In this repository are presented the Neural Networks used for the article in Julia. 
-
+CHANGER NBTX
 ## Description
 
 We used the following neural networks :
