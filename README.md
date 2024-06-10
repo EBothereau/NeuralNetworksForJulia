@@ -31,7 +31,7 @@ All networks undergo 200 epochs of training on the S1 scenario only, with early 
 | **POWDER Dataset**   | 0.0001         | 0.0001         | 0.0001           | 0.0001        | 0.0005*           | 0.01                  |
 | **Wisig Dataset**  | 0.0001         | 0.00001         | 0.0001                  | 0.0001        | 0.0001           | 0.01                    |
 | **Elmaghbub Dataset**| 0.0001         | 0.0001         | 0.0001               | 0.001        | 0.001           | 0.01                  |
-| **Oracle Dataset**  | 0.0001       | 0.0001         | 0.0001           | 0.001        | 0.001           | 0.01                  |
+| **Oracle Dataset**  | 0.0001       | 0.0001         | 0.0001           | 0.001        | 0.005*           | 0.01                  |
 
 
 *The scheduler reduce by 10% the learning rate, every 30 epochs, early stopping if loss did not reduced for 30 epochs
