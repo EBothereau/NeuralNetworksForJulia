@@ -1,4 +1,4 @@
-# TITLE 
+# Lightweight RF Fingerprint Identification: The Revenge of the Fully Connected Neural Networks?
 Emma BOTHEREAU∗ , Alice CHILLET∗ , Robin GERZAGUET∗ , Matthieu GAUTIER∗ , Olivier BERDER∗ , 
 ∗ Univ Rennes, CNRS, IRISA, firstname.name@irisa.fr
 
@@ -10,17 +10,17 @@ CHANGER NBTX
 
 We used the following neural networks :
 - [POWDER CNN](https://ieeexplore.ieee.org/document/9348261)
-![](Illustrations/POWDER.png)
+![](Illustrations/POWDERV1.png)
 - [Sankhe CNN](https://ieeexplore.ieee.org/document/8882379)
-![](Illustrations/Sankhe.png)
+![](Illustrations/SankheV1.png)
 - [Elmaghbub CNN](https://arxiv.org/abs/2308.04467) 
-![](Illustrations/Elmaghbub2.png)
+![](Illustrations/ElmaghbubV1.png)
 - [WiSig CNN](https://arxiv.org/abs/2112.15363)
-![](Illustrations/wisig.png)
+![](Illustrations/wisigV1.png)
 - [Feng CNN-GRU](https://ieeexplore.ieee.org/document/9851177) 
-![](Illustrations/Feng.png)
+![](Illustrations/FengV1.png)
 - Triple Dense
-![](Illustrations/TripleDense.png)
+![](Illustrations/TripleDenseV1.png)
 
 ## Learning rates for each Network-Dataset combination
 
