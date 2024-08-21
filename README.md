@@ -1,5 +1,5 @@
 # Lightweight RF Fingerprint Identification: The Revenge of the Fully Connected Neural Networks?
-Emma BOTHEREAU∗ , Alice CHILLET∗ , Robin GERZAGUET∗ , Matthieu GAUTIER∗ , Olivier BERDER∗ , 
+Emma BOTHEREAU∗ , Robin GERZAGUET∗ , Matthieu GAUTIER∗ , Alice CHILLET∗ , Olivier BERDER∗ , 
 
 ∗ Univ Rennes, CNRS, IRISA, firstname.name@irisa.fr
 
