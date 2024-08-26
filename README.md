@@ -21,10 +21,13 @@ We used the following neural networks :
 ![](Illustrations/wisigV1.png)
 - [Feng CNN-GRU](https://ieeexplore.ieee.org/document/9851177) 
 ![](Illustrations/FengV1.png)
-- FCNN V1
-![](Illustrations/TripleDenseV1.png)
+- [Feng CNN]([https://ieeexplore.ieee.org/document/9851177](https://ieeexplore.ieee.org/document/10150764)) 
+![](Illustrations/Feng2023.png)
+
 - FCNN V2
 ![](Illustrations/FCNNV2.png)
+
+A Flatten layer is required before the Dense layer part of the networks.
 
 ## Learning rates for each Network-Dataset combination
 
