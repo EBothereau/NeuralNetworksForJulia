@@ -35,11 +35,11 @@ All networks undergo 200 epochs of training on the S1 scenario only, with early 
 
 |                     | **POWDER CNN** | **Sankhe CNN** | **SWRFF CNN**  | **WiSig CNN** | **Feng CNN-GRU** | **Feng CNN** |
 |---------------------|----------------|----------------|-------------------|---------------|------------------|-------------------------|
-| **POWDER Dataset**   | 0.0001         | 0.0001         | 0.0001           | 0.0001        | 0.0005*           |  0.0001                 | 
-| **Wisig Dataset - 6Tx**  | 0.0001         | 0.00001         | 0.0001                  | 0.0001        | 0.0001           |0.001                     |
-| **Wisig Dataset - 90Tx**  | 0.01           | 0.001           |   0.01                | 0.01        |             |  0.001                     |
-| **SWRFF Dataset**| 0.0001         | 0.0001         | 0.0001               | 0.001        | 0.005*          | 0.01                  |
-| **Oracle Dataset**  | 0.0001       | 0.0001         | 0.0001           | 0.001        | 0.001           |   0.001                 |
+| **POWDER Dataset**   | 0.0001         | 0.0001         | 0.0001           | 0.0001        | 0.0005*           |                   | 
+| **Wisig Dataset - 6Tx**  | 0.0001         | 0.00001         | 0.0001                  | 0.0001        | 0.0001           |                     |
+| **Wisig Dataset - 90Tx**  | 0.0001           | 0.001           |   0.01                | 0.001        | 0.001              | 0.001   |
+| **SWRFF Dataset**| 0.0001         | 0.0001         | 0.0001               | 0.001        | 0.005*          |                   |
+| **Oracle Dataset**  | 0.0001       | 0.0001         | 0.0001           | 0.001        | 0.001           |                    |
 
 
 *The scheduler reduce by 10% the learning rate, every 30 epochs, early stopping if loss did not reduced for 30 epochs
