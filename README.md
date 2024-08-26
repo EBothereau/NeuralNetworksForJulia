@@ -28,7 +28,7 @@ We used the following neural networks :
 ![](Illustrations/FCNNV2.png)
 
 A Flatten layer is required before the Dense layer part of the networks.
-
+<!---
 ## Learning rates for each Network-Dataset combination
 
 All networks undergo 200 epochs of training on the S1 scenario only, with early stopping if the loss function (CrossEntropy) does not decrease for 10 consecutive epochs. We used the Adam Optimizer with the corresponding learning rate. Per default, we used a scheduler, reducing by 10% the learning rate, every 10 epochs.
@@ -43,3 +43,4 @@ All networks undergo 200 epochs of training on the S1 scenario only, with early 
 
 
 *The scheduler reduce by 10% the learning rate, every 30 epochs, early stopping if loss did not reduced for 30 epochs
+-->
