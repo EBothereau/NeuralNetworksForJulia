@@ -33,12 +33,12 @@ A Flatten layer is required before the Dense layer part of the networks.
 
 All networks undergo 200 epochs of training on the S1 scenario only, with early stopping if the loss function (CrossEntropy) does not decrease for 10 consecutive epochs. We used the Adam Optimizer with the corresponding learning rate. Per default, we used a scheduler, reducing by 10% the learning rate, every 10 epochs.
 
-|                     | **POWDER CNN** | **Sankhe CNN** | **Elmaghbub CNN**  | **WiSig CNN** | **Feng CNN-GRU** | **Feng CNN** |
+|                     | **POWDER CNN** | **Sankhe CNN** | **SWRFF CNN**  | **WiSig CNN** | **Feng CNN-GRU** | **Feng CNN** |
 |---------------------|----------------|----------------|-------------------|---------------|------------------|-------------------------|
 | **POWDER Dataset**   | 0.0001         | 0.0001         | 0.0001           | 0.0001        | 0.0005*           |                   |
 | **Wisig Dataset - 6Tx**  | 0.0001         | 0.00001         | 0.0001                  | 0.0001        | 0.0001           |0.001                     |
-| **Wisig Dataset - 90Tx**  |          |          |                   |         |            |                     |0.001
-| **Elmaghbub Dataset**| 0.0001         | 0.0001         | 0.0001               | 0.001        | 0.005*          |                   |
+| **Wisig Dataset - 90Tx**  |          |          |   0.01                | 0.01        |             |                     |0.001
+| **SWRFF Dataset**| 0.0001         | 0.0001         | 0.0001               | 0.001        | 0.005*          |                   |
 | **Oracle Dataset**  | 0.0001       | 0.0001         | 0.0001           | 0.001        | 0.001           |  0.0001                 |
 
 
