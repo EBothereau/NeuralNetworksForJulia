@@ -21,7 +21,7 @@ We used the following neural networks :
 ![](Illustrations/wisigV1.png)
 - [Feng CNN-GRU](https://ieeexplore.ieee.org/document/9851177) 
 ![](Illustrations/FengV1.png)
-- [Feng CNN]([https://ieeexplore.ieee.org/document/9851177](https://ieeexplore.ieee.org/document/10150764)) 
+- [Feng CNN]([https://ieeexplore.ieee.org/document/9851177](https://ieeexplore.ieee.org/document/10150764)
 ![](Illustrations/Feng2023.png)
 
 - FCNN V2
