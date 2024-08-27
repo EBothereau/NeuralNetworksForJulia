@@ -38,7 +38,7 @@ All networks undergo 200 epochs of training on the S1 scenario only, with early 
 | **POWDER Dataset**   | 0.0001         | 0.0001         | 0.0001           | 0.0001        | 0.0005*           |   0.001                | 
 | **Wisig Dataset - 6Tx**  | 0.0001         | 0.00001         | 0.0001                  | 0.0001        | 0.0001           |  0.001                   |
 | **Wisig Dataset - 90Tx**  | 0.0001           | 0.001           |   0.01                | 0.001        | 0.001              | 0.001   |
-| **SWRFF Dataset**| 0.0001         | 0.0001         | 0.0001               | 0.001        | 0.005*          |                   |
+| **SWRFF Dataset**| 0.0001         | 0.0001         | 0.0001               | 0.001        | 0.005*          |  0.001                 |
 | **Oracle Dataset**  | 0.0001       | 0.0001         | 0.0001           | 0.001        | 0.001           | 0.0001                   |
 
 
