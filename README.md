@@ -9,7 +9,7 @@ In this repository are presented the Neural Networks used for the article in Jul
 
 
 ## Description
-
+All networks have been trained on 200 epochs with early stopping. 
 We used the following neural networks :
 - [POWDER CNN](https://ieeexplore.ieee.org/document/9348261)
 ![](Illustrations/POWDERV1.png)
@@ -23,15 +23,22 @@ We used the following neural networks :
 ![](Illustrations/FengV1.png)
 - [Feng CNN](https://ieeexplore.ieee.org/document/10150764)
 ![](Illustrations/Feng2023.png)
+The network has learning rate reduction of 10\% every 5 epochs (10 epochs for WiSig BDD), beginning at a learning rate of 0.01.
 
-- FCNN V2
+
+- FCNN 
 ![](Illustrations/FCNNV2.png)
+The network has learning rate reduction of 10\% every 5 epochs (10 epochs for WiSig BDD), beginning at a learning rate of 0.01.
+
 
 A Flatten layer is required before the Dense layer part of the networks.
 
 ## Learning rates for each Network-Dataset combination
 
 All networks undergo 200 epochs of training on the S1 scenario only, with early stopping if the loss function (CrossEntropy) does not decrease for 10 consecutive epochs. We used the Adam Optimizer with the corresponding learning rate. Per default, we used a scheduler, reducing by 10% the learning rate, every 10 epochs.
+Batch size = 
+
+
 
 |                     | **POWDER CNN** | **Sankhe CNN** | **SWRFF CNN**  | **WiSig CNN** | **Feng CNN-GRU** | **Feng CNN** |
 |---------------------|----------------|----------------|-------------------|---------------|------------------|-------------------------|
