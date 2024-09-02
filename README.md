@@ -27,7 +27,7 @@ The network has learning rate reduction of 10\% every 5 epochs (10 epochs for Wi
 
 
 - FCNN 
-![](Illustrations/FCNNV2.png)
+![](Illustrations/FCNN.png)
 The network has learning rate reduction of 10\% every 5 epochs (10 epochs for WiSig BDD), beginning at a learning rate of 0.01.
 
 
